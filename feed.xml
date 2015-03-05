@@ -35,7 +35,7 @@ layout: null
     <itunes:explicit>{{ site.itunes.explicit }}</itunes:explicit>
     <itunes:owner>
       <itunes:email>{{ site.itunes.owner.email }}</itunes:email>
-      <itunes:name>{{ site.itunes.name | xml_escape }}</itunes:name>
+      <itunes:name>{{ site.itunes.owner.name | xml_escape }}</itunes:name>
     </itunes:owner>
     <itunes:subtitle>{{ site.itunes.subtitle | xml_escape }}</itunes:subtitle>
     <itunes:summary>{{ site.itunes.summary | xml_escape }}</itunes:summary>
