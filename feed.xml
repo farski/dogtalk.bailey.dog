@@ -47,7 +47,7 @@ layout: null
     <itunes:keywords>{% for keyword in site.itunes.keywords %}{{ keyword | xml_escape }},{% endfor %}</itunes:keywords>
 
 
-    {% for episode in site.episodes %}
+    {% for episode in site.episodes reversed %}
       <item>
         <title>{{ episode.title | xml_escape }}</title>
         <description>{{ episode.description | xml_escape }}</description>
