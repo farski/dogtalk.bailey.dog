@@ -1,0 +1,79 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  version="2.0">
+  <channel>
+
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+
+    <language>{{ site.language }}</language>
+    <copyright>{{ site.copyright | xml_escape }}</copyright>
+    <managingEditor>{{ site.managing_editor.email }} ({{ site.managing_editor.name }})</managingEditor>
+    <webMaster>{{ site.web_master.email }} ({{ site.web_master.name }})</webMaster>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    {% for cat in post.categories %}
+    <category>{{ cat | xml_escape }}</category>
+    {% endfor %}
+    <!-- image -->
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+
+    <itunes:author>{{ site.itunes.author | xml_escape }}</itunes:author>
+    <itunes:explicit>{{ site.itunes.explicit }}</itunes:explicit>
+    <itunes:owner>
+      <itunes:email>{{ site.itunes.owner.email }}</itunes:email>
+      <itunes:name>{{ site.itunes.name | xml_escape }}</itunes:name>
+    </itunes:owner>
+    <itunes:subtitle>{{ site.itunes.subtitle | xml_escape }}</itunes:subtitle>
+    <itunes:summary>{{ site.itunes.summary | xml_escape }}</itunes:summary>
+    <itunes:category text="Music" />
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Technology" />
+    </itunes:category>
+    <itunes:image href="{{ site.itunes.image.href }}" />
+    <itunes:keywords>{% for keyword in site.itunes.keywords %}{{ keyword | xml_escape }},{% endfor %}</itunes:keywords>
+
+
+    {% for episode in site.episodes %}
+      <item>
+        <title>{{ episode.title | xml_escape }}</title>
+        <description>{{ episode.description | xml_escape }}</description>
+
+        <link></link>
+        <author>{{ episode.author }}</author>
+        <pubDate>{{ episode.pubDate | date_to_rfc822 }}</pubDate>
+        <source url="{{ episode.source.url }}">{{ episode.source.text }}</source>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        <guid>{{ episode.guid }}</guid>
+        <enclosure url="{{ episode.enclosure.url }}" length="{{ episode.enclosure.length }}" type="{{ episode.enclosure.type }}" />
+
+        <comments>{{ episode.comments }}</comments>
+
+        <content:encoded><![CDATA[{{ episode.content }}]]></content:encoded>
+
+        <itunes:author>{{ episode.itunes.author }}</itunes:author>
+        <itunes:subtitle>{{ episode.itunes.subtitle }}</itunes:subtitle>
+        <itunes:summary>{{ episode.itunes.summary }}</itunes:summary>
+        <itunes:explicit>{{ episode.itunes.explicit }}</itunes:explicit>
+        <itunes:duration>{{ episode.itunes.duration }}</itunes:duration>
+        <itunes:keywords>{% for keyword in episode.itunes.keywords %}{{ keyword | xml_escape }},{% endfor %}</itunes:keywords>
+        <itunes:image href="{{ episode.itunes.image.href }}" />
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

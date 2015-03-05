@@ -1,0 +1,33 @@
+---
+title:  "Episode 1"
+description: "Bailey discusses the person opening the car door in the driveway."
+
+link: ""
+# author: ""
+pubDate:   2012-10-15 23:34:22
+source:
+  url: ""
+  text: ""
+categories: jekyll update
+guid: ""
+enclosure:
+  url: ""
+  length: ""
+  type: ""
+
+comments: ""
+
+itunes:
+  # author: ""
+  subtitle: "The Car Door"
+  summary: "Bailey discusses the person opening the car door in the driveway."
+  explicit: "no"
+  duration: "6789"
+  keywords:
+    - "foo"
+    - "bar"
+  image:
+    href: ""
+---
+
+<p>Bailey discusses the person opening the car door in the driveway.</p>
