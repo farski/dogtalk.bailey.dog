@@ -1,0 +1,33 @@
+---
+title:  "Episode 2"
+description: "A mysterious noise in the hallway is the topic of this week's episode."
+
+link: ""
+# author: ""
+pubDate:   2012-11-15 13:28:45
+source:
+  url: ""
+  text: ""
+categories: jekyll update
+guid: ""
+enclosure:
+  url: ""
+  length: ""
+  type: ""
+
+comments: ""
+
+itunes:
+  # author: ""
+  subtitle: "The Noise"
+  summary: "A mysterious noise in the hallway is the topic of this week's episode."
+  explicit: "no"
+  duration: "6789"
+  keywords:
+    - "foo"
+    - "bar"
+  image:
+    href: ""
+---
+
+<p>A mysterious noise in the hallway is the topic of this week's episode.</p>
