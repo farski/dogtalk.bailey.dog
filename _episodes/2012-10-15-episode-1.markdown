@@ -9,11 +9,11 @@ source:
   url: ""
   text: ""
 categories: jekyll update
-guid: ""
+guid: "c195cee3da8c5027c024d4271b82ff9472ac9b928750261a41fa88c49963ba25"
 enclosure:
-  url: ""
-  length: ""
-  type: ""
+  url: "http://www.example.com/mp3.mp3"
+  length: "12345"
+  type: "audio/mpeg"
 
 comments: ""
 
