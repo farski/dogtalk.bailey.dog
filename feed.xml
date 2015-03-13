@@ -45,6 +45,7 @@ layout: null
     </itunes:category>
     <itunes:image href="{{ site.itunes.image.href }}" />
     <itunes:keywords>{% for keyword in site.itunes.keywords %}{{ keyword | xml_escape }},{% endfor %}</itunes:keywords>
+    <itunes:new-feed-url>http://newfeedurl.com</itunes:new-feed-url>
 
 
     {% for episode in site.episodes reversed %}
