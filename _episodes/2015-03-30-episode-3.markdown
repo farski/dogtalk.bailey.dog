@@ -1,0 +1,33 @@
+---
+title:  "Episode 3"
+description: "A mysterious noise in the hallway is the topic of this week's episode."
+
+link: ""
+# author: ""
+pubDate:   2015-03-30 13:28:45
+source:
+  url: ""
+  text: ""
+categories: jekyll update
+guid: "8f452210ed42f9328b0d4838f257fc1d83dc0266582898e4ce510142f163f0e8"
+enclosure:
+  url: "http://www.example.com/mp3.mp3"
+  length: "12345"
+  type: "audio/mpeg"
+
+comments: ""
+
+itunes:
+  # author: ""
+  subtitle: "The Noise"
+  summary: "A mysterious noise in the hallway is the topic of this week's episode."
+  explicit: "no"
+  duration: "6789"
+  keywords:
+    - "foo"
+    - "bar"
+  image:
+    href: ""
+---
+
+<p>A mysterious noise in the hallway is the topic of this week's episode.</p>
