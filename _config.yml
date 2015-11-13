@@ -45,6 +45,7 @@ defaults:
         author: "Bailey Kalafarski"
 
 url: "http://dogtalk.bailey.dog" # the base hostname & protocol for your site
+feed_url: "http://dogtalk.bailey.dog/feed.xml"
 
 # Build settings
 markdown: kramdown
