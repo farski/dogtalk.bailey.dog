@@ -2,32 +2,30 @@
 title:  "Episode 1"
 description: "Bailey discusses the person opening the car door in the driveway."
 
-link: ""
+link: "http://dogtalk.bailey.dog"
 # author: ""
-pubDate:   2012-10-15 23:34:22
-source:
-  url: ""
-  text: ""
-categories: jekyll update
-guid: "c195cee3da8c5027c024d4271b82ff9472ac9b928750261a41fa88c49963ba25"
+# source:
+#  url: ""
+#  text: ""
+pubDate:   2012-10-15 12:00:00
+categories:
+guid: "0cefe570-2f07-4dfe-a513-d7beeaa83ed4"
 enclosure:
-  url: "http://www.example.com/mp3.mp3"
-  length: "12345"
+  url: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/audio/1DGT01.mp3"
+  length: "1318452"
   type: "audio/mpeg"
 
-comments: ""
+# comments: ""
 
 itunes:
   # author: ""
   subtitle: "The Car Door"
   summary: "Bailey discusses the person opening the car door in the driveway."
   explicit: "no"
-  duration: "6789"
-  keywords:
-    - "foo"
-    - "bar"
-  image:
-    href: ""
+  duration: "54"
+#  keywords:
+#  image:
+#    href: ""
 ---
 
 <p>Bailey discusses the person opening the car door in the driveway.</p>

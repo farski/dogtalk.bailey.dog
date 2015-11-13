@@ -21,11 +21,11 @@ itunes:
   summary: "Dog Talk is a show by dogs."
   category:
   image:
-    href: "http://mygreatpodcast.fm/itunes-logo.png"
+    href: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/images/iTunes/3000.png"
   keywords:
     - "dog"
     - "animals"
-    - "science"
+    - "baileythebeagle"
 
 collections:
   - episodes
@@ -37,12 +37,14 @@ defaults:
       type: "episodes" # a collection in your site, in plural form
     values:
       author: "Bailey Kalafarski"
+      link: "http://dogtalk.bailey.dog/"
+      source:
+        url: "http://dogtalk.bailey.dog/feed.xml"
+        text: "Dog Talk"
       itunes:
         author: "Bailey Kalafarski"
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dogtalk.bailey.farski.com" # the base hostname & protocol for your site
-twitter_username: baileythebeagle
+url: "http://dogtalk.bailey.dog" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

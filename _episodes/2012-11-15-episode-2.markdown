@@ -2,32 +2,30 @@
 title:  "Episode 2"
 description: "A mysterious noise in the hallway is the topic of this week's episode."
 
-link: ""
+link: "http://dogtalk.bailey.dog"
 # author: ""
-pubDate:   2012-11-15 13:28:45
-source:
-  url: ""
-  text: ""
-categories: jekyll update
-guid: "f257fc1d83dc0266582898e4ce510142f163f0e88f452210ed42f9328b0d4666"
+# source:
+#  url: ""
+#  text: ""
+pubDate:   2012-11-15 12:00:00
+categories:
+guid: "7c3b6cec-222b-498e-b1ad-3ddb6d2e098b"
 enclosure:
-  url: "http://www.example.com/mp3.mp3"
-  length: "12345"
+  url: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/audio/1DGT02.mp3"
+  length: "1532865"
   type: "audio/mpeg"
 
-comments: ""
+# comments: ""
 
 itunes:
   # author: ""
   subtitle: "The Noise"
   summary: "A mysterious noise in the hallway is the topic of this week's episode."
   explicit: "no"
-  duration: "6789"
-  keywords:
-    - "foo"
-    - "bar"
-  image:
-    href: ""
+  duration: "64"
+#  keywords:
+#  image:
+#    href: ""
 ---
 
 <p>A mysterious noise in the hallway is the topic of this week's episode.</p>

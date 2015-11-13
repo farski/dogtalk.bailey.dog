@@ -12,7 +12,7 @@ layout: null
   version="2.0">
   <channel>
 
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <link>{{ site.url }}</link>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
 
@@ -27,7 +27,7 @@ layout: null
     {% endfor %}
     <!-- image -->
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.feed_url }}" rel="self" type="application/rss+xml"/>
 
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
@@ -39,13 +39,10 @@ layout: null
     </itunes:owner>
     <itunes:subtitle>{{ site.itunes.subtitle | xml_escape }}</itunes:subtitle>
     <itunes:summary>{{ site.itunes.summary | xml_escape }}</itunes:summary>
-    <itunes:category text="Music" />
-    <itunes:category text="Society &amp; Culture">
-      <itunes:category text="Technology" />
-    </itunes:category>
+    <itunes:category text="Society &amp; Culture" />
     <itunes:image href="{{ site.itunes.image.href }}" />
-    <itunes:keywords>{% for keyword in site.itunes.keywords %}{{ keyword | xml_escape }},{% endfor %}</itunes:keywords>
-    <itunes:new-feed-url>http://fakedogtalkdomain.com</itunes:new-feed-url>
+    <itunes:keywords>{{ site.itunes.keywords | join: "," | xml_escape }}</itunes:keywords>
+    <!-- <itunes:new-feed-url></itunes:new-feed-url> -->
 
 
     {% for episode in site.episodes reversed %}
@@ -53,26 +50,31 @@ layout: null
         <title>{{ episode.title | xml_escape }}</title>
         <description>{{ episode.description | xml_escape }}</description>
 
-        <link></link>
-        <author>{{ episode.author }}</author>
+        <link>{{ episode.link }}</link>
+        <author>{{ episode.author | xml_escape }}</author>
         <pubDate>{{ episode.pubDate | date_to_rfc822 }}</pubDate>
         <source url="{{ episode.source.url }}">{{ episode.source.text }}</source>
+
         {% for tag in post.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
         <guid>{{ episode.guid }}</guid>
         <enclosure url="{{ episode.enclosure.url }}" length="{{ episode.enclosure.length }}" type="{{ episode.enclosure.type }}" />
 
+        {% if episode.comments %}
         <comments>{{ episode.comments }}</comments>
+        {% endif %}
 
+        {% if episode.content %}
         <content:encoded><![CDATA[{{ episode.content }}]]></content:encoded>
+        {% endif %}
 
-        <itunes:author>{{ episode.itunes.author }}</itunes:author>
-        <itunes:subtitle>{{ episode.itunes.subtitle }}</itunes:subtitle>
-        <itunes:summary>{{ episode.itunes.summary }}</itunes:summary>
+        <itunes:author>{{ episode.itunes.author | xml_escape }}</itunes:author>
+        <itunes:subtitle>{{ episode.itunes.subtitle | xml_escape }}</itunes:subtitle>
+        <itunes:summary>{{ episode.itunes.summary | xml_escape }}</itunes:summary>
         <itunes:explicit>{{ episode.itunes.explicit }}</itunes:explicit>
         <itunes:duration>{{ episode.itunes.duration }}</itunes:duration>
-        <itunes:keywords>{% for keyword in episode.itunes.keywords %}{{ keyword | xml_escape }},{% endfor %}</itunes:keywords>
+        <itunes:keywords>{{ episode.itunes.keywords | join: "," | xml_escape }}</itunes:keywords>
         <itunes:image href="{{ episode.itunes.image.href }}" />
       </item>
     {% endfor %}

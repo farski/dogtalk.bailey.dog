@@ -1,0 +1,33 @@
+---
+title:  "Episode 6"
+description: "After an Instagram of Bailey licking the bottom of a peanut butter jar goes viral, the host of Dog Talk discusses the unwanted impacts of social media in pets' lives. This show was originally produced for 99% Dogvisible. Dog Talk is now a member of Puppyotopia."
+
+link: "http://dogtalk.bailey.dog"
+# author: ""
+# source:
+#  url: ""
+#  text: ""
+pubDate:   2014-03-31 12:00:00
+categories:
+guid: "07d45185-0419-4f9e-bc53-84260623490d"
+enclosure:
+  url: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/audio/1DGT06.mp3"
+  length: "1457632"
+  type: "audio/mpeg"
+
+# comments: ""
+
+itunes:
+  # author: ""
+  subtitle: "The Jar"
+  summary: "After an Instagram of Bailey licking the bottom of a peanut butter jar goes viral, the host of Dog Talk discusses the unwanted impacts of social media in pets' lives. This show was originally produced for 99% Dogvisible. Dog Talk is now a member of Puppyotopia."
+  explicit: "no"
+  duration: "60"
+#  keywords:
+#  image:
+#    href: ""
+---
+
+<p>After an Instagram of Bailey licking the bottom of a peanut butter jar goes viral, the host of Dog Talk discusses the unwanted impacts of social media in pets' lives.</p>
+
+<p>This show was originally produced for 99% Dogvisible. Dog Talk is now a member of Puppyotopia.</p>

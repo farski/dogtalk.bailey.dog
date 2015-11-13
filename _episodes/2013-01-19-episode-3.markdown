@@ -1,0 +1,31 @@
+---
+title:  "Episode 3"
+description: "A quick recap of 2012 and looking ahead to 2013."
+
+link: "http://dogtalk.bailey.dog"
+# author: ""
+# source:
+#  url: ""
+#  text: ""
+pubDate:   2013-01-19 12:00:00
+categories:
+guid: "88d61457-5812-4523-a664-8e6cde11f009"
+enclosure:
+  url: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/audio/1DGT03.mp3"
+  length: "2119680"
+  type: "audio/mpeg"
+
+# comments: ""
+
+itunes:
+  # author: ""
+  subtitle: "The Year 2012"
+  summary: "A quick recap of 2012 and looking ahead to 2013."
+  explicit: "no"
+  duration: "88"
+#  keywords:
+#  image:
+#    href: ""
+---
+
+<p>A quick recap of 2012 and looking ahead to 2013.</p>

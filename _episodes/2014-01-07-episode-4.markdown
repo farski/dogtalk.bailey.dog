@@ -1,0 +1,31 @@
+---
+title:  "Episode 4"
+description: "A total snoozefest."
+
+link: "http://dogtalk.bailey.dog"
+# author: ""
+# source:
+#  url: ""
+#  text: ""
+pubDate:   2014-01-07 12:00:00
+categories:
+guid: "ebb25385-7488-4c86-8906-f88daa698b69"
+enclosure:
+  url: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/audio/1DGT04.mp3"
+  length: "1235069"
+  type: "audio/mpeg"
+
+# comments: ""
+
+itunes:
+  # author: ""
+  subtitle: "The Nap"
+  summary: "A total snoozefest."
+  explicit: "no"
+  duration: "51"
+#  keywords:
+#  image:
+#    href: ""
+---
+
+<p>A total snoozefest.</p>

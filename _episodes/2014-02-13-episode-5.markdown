@@ -1,0 +1,31 @@
+---
+title:  "Episode 5"
+description: "In response to today's weather, we talk about global climate change."
+
+link: "http://dogtalk.bailey.dog"
+# author: ""
+# source:
+#  url: ""
+#  text: ""
+pubDate:   2015-02-13 12:00:00
+categories:
+guid: "ecf39a5b-1816-4539-b97c-f71e4d652eeb"
+enclosure:
+  url: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/audio/1DGT05.mp3"
+  length: "1226919"
+  type: "audio/mpeg"
+
+# comments: ""
+
+itunes:
+  # author: ""
+  subtitle: "The Weather"
+  summary: "In response to today's weather, we talk about global climate change."
+  explicit: "no"
+  duration: "51"
+#  keywords:
+#  image:
+#    href: ""
+---
+
+<p>In response to today's weather, we talk about global climate change.</p>
