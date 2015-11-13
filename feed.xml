@@ -75,7 +75,7 @@ layout: null
         <itunes:explicit>{{ episode.itunes.explicit }}</itunes:explicit>
         <itunes:duration>{{ episode.itunes.duration }}</itunes:duration>
         <itunes:keywords>{{ episode.itunes.keywords | join: "," | xml_escape }}</itunes:keywords>
-        <itunes:image href="{{ episode.itunes.image.href }}" />
+        {% if episode.itunes.image %}<itunes:image href="{{ episode.itunes.image.href }}" />{% endif %}
       </item>
     {% endfor %}
   </channel>
