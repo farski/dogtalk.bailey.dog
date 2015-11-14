@@ -2,7 +2,7 @@
 title:  "Episode 4"
 description: "A total snoozefest."
 
-link: "http://dogtalk.bailey.dog"
+# link: ""
 # author: ""
 # source:
 #  url: ""

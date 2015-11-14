@@ -37,15 +37,15 @@ defaults:
       type: "episodes" # a collection in your site, in plural form
     values:
       author: "dogtalk@bailey.dog (Bailey Kalafarski)"
-      link: "http://dogtalk.bailey.dog/"
+      link: "https://dogtalk.bailey.dog/"
       source:
-        url: "http://dogtalk.bailey.dog/feed.xml"
+        url: "https://dogtalk.bailey.dog/feed.xml"
         text: "Dog Talk"
       itunes:
         author: "Bailey Kalafarski"
 
-url: "http://dogtalk.bailey.dog" # the base hostname & protocol for your site
-feed_url: "http://dogtalk.bailey.dog/feed.xml"
+url: "https://dogtalk.bailey.dog" # the base hostname & protocol for your site
+feed_url: "https://dogtalk.bailey.dog/feed.xml"
 
 # Build settings
 markdown: kramdown

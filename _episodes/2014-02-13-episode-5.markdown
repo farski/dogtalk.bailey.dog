@@ -2,7 +2,7 @@
 title:  "Episode 5"
 description: "In response to today's weather, we talk about global climate change."
 
-link: "http://dogtalk.bailey.dog"
+# link: ""
 # author: ""
 # source:
 #  url: ""

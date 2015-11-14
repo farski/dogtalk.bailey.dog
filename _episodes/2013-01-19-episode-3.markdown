@@ -2,7 +2,7 @@
 title:  "Episode 3"
 description: "A quick recap of 2012 and looking ahead to 2013."
 
-link: "http://dogtalk.bailey.dog"
+# link: ""
 # author: ""
 # source:
 #  url: ""

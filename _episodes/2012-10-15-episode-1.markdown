@@ -2,7 +2,7 @@
 title:  "Episode 1"
 description: "Bailey discusses the person opening the car door in the driveway."
 
-link: "http://dogtalk.bailey.dog"
+# link: ""
 # author: ""
 # source:
 #  url: ""

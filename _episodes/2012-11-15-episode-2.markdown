@@ -2,7 +2,7 @@
 title:  "Episode 2"
 description: "A mysterious noise in the hallway is the topic of this week's episode."
 
-link: "http://dogtalk.bailey.dog"
+# link: ""
 # author: ""
 # source:
 #  url: ""
