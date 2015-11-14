@@ -36,7 +36,7 @@ defaults:
       path: ""
       type: "episodes" # a collection in your site, in plural form
     values:
-      author: "Bailey Kalafarski (dogtalk@bailey.dog)"
+      author: "dogtalk@bailey.dog (Bailey Kalafarski)"
       link: "http://dogtalk.bailey.dog/"
       source:
         url: "http://dogtalk.bailey.dog/feed.xml"
