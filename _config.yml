@@ -6,16 +6,16 @@ language: "en-us"
 copyright: "Copyright © 2015 Dog Talk. All rights reserved."
 managing_editor:
   name: "Bailey Kalafarski"
-  email: "dogtalk@bailey.farski.com"
+  email: "dogtalk@bailey.dog"
 web_master:
   name: "Bailey Kalafarski"
-  email: "dogtalk@bailey.farski.com"
+  email: "dogtalk@bailey.dog"
 
 itunes:
   author: "Bailey Kalafarski"
   explicit: "no"
   owner:
-    email: "dogtalk@bailey.farski.com"
+    email: "dogtalk@bailey.dog"
     name: Bailey Kalafarski
   subtitle: "This is Dog Talk."
   summary: "Dog Talk is a show by dogs."
@@ -36,7 +36,7 @@ defaults:
       path: ""
       type: "episodes" # a collection in your site, in plural form
     values:
-      author: "Bailey Kalafarski"
+      author: "Bailey Kalafarski (dogtalk@bailey.dog)"
       link: "http://dogtalk.bailey.dog/"
       source:
         url: "http://dogtalk.bailey.dog/feed.xml"
