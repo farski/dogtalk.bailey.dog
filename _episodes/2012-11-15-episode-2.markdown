@@ -11,7 +11,7 @@ pubDate:   2012-11-15 12:00:00
 categories:
 guid: "7c3b6cec-222b-498e-b1ad-3ddb6d2e098b"
 enclosure:
-  url: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/audio/1DGT02.mp3"
+  url: "https://media.dogtalk.bailey.dog/audio/1DGT02.mp3"
   length: "1532865"
   type: "audio/mpeg"
 

@@ -21,7 +21,7 @@ itunes:
   summary: "Dog Talk is a show by dogs."
   category:
   image:
-    href: "https://s3.amazonaws.com/media-dogtalk.bailey.dog/images/iTunes/3000.png"
+    href: "https://media.dogtalk.bailey.dog/images/iTunes/3000.png"
   keywords:
     - "dog"
     - "animals"
