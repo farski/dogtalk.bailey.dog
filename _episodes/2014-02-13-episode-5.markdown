@@ -1,5 +1,5 @@
 ---
-title:  "Episode 5"
+title: "The Weather"
 description: "In response to today's weather, we talk about global climate change."
 
 # link: ""
@@ -19,7 +19,9 @@ enclosure:
 
 itunes:
   # author: ""
-  subtitle: "The Weather"
+  season: "1"
+  episode: "5"
+  # subtitle: ""
   summary: "In response to today's weather, we talk about global climate change."
   explicit: "no"
   duration: "51"

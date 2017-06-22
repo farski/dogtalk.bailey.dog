@@ -1,5 +1,5 @@
 ---
-title:  "Episode 1"
+title: "The Car Door"
 description: "Bailey discusses the person opening the car door in the driveway."
 
 # link: ""
@@ -19,7 +19,9 @@ enclosure:
 
 itunes:
   # author: ""
-  subtitle: "The Car Door"
+  season: "1"
+  episode: "1"
+  # subtitle: ""
   summary: "Bailey discusses the person opening the car door in the driveway."
   explicit: "no"
   duration: "54"

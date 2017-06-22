@@ -32,6 +32,7 @@ layout: null
 
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
+    <itunes:type>{{ site.itunes.type }}</itunes:type>
     <itunes:author>{{ site.itunes.author | xml_escape }}</itunes:author>
     <itunes:explicit>{{ site.itunes.explicit }}</itunes:explicit>
     <itunes:owner>
@@ -70,6 +71,9 @@ layout: null
         <content:encoded><![CDATA[{{ episode.content }}]]></content:encoded>
         {% endif %}
 
+        <itunes:episodeType>{{ episode.itunes.episodeType }}</itunes:episodeType>
+        <itunes:season>{{ episode.itunes.season }}</itunes:season>
+        <itunes:episode>{{ episode.itunes.episode }}</itunes:episode>
         <itunes:author>{{ episode.itunes.author | xml_escape }}</itunes:author>
         <itunes:subtitle>{{ episode.itunes.subtitle | xml_escape }}</itunes:subtitle>
         <itunes:summary>{{ episode.itunes.summary | xml_escape }}</itunes:summary>

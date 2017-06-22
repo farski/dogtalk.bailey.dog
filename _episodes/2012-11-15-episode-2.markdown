@@ -1,5 +1,5 @@
 ---
-title:  "Episode 2"
+title: "The Noise"
 description: "A mysterious noise in the hallway is the topic of this week's episode."
 
 # link: ""
@@ -19,7 +19,9 @@ enclosure:
 
 itunes:
   # author: ""
-  subtitle: "The Noise"
+  season: "1"
+  episode: "2"
+  # subtitle: ""
   summary: "A mysterious noise in the hallway is the topic of this week's episode."
   explicit: "no"
   duration: "64"

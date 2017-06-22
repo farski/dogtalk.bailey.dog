@@ -12,6 +12,7 @@ web_master:
   email: "dogtalk@bailey.dog"
 
 itunes:
+  type: "episodic"
   author: "Bailey Kalafarski"
   explicit: "no"
   owner:
@@ -42,6 +43,7 @@ defaults:
         url: "https://dogtalk.bailey.dog/feed.xml"
         text: "Dog Talk"
       itunes:
+        episodeType: "full"
         author: "Bailey Kalafarski"
 
 url: "https://dogtalk.bailey.dog" # the base hostname & protocol for your site

@@ -1,5 +1,5 @@
 ---
-title:  "Episode 3"
+title: "The Year 2012"
 description: "A quick recap of 2012 and looking ahead to 2013."
 
 # link: ""
@@ -19,7 +19,9 @@ enclosure:
 
 itunes:
   # author: ""
-  subtitle: "The Year 2012"
+  season: "1"
+  episode: "3"
+  # subtitle: ""
   summary: "A quick recap of 2012 and looking ahead to 2013."
   explicit: "no"
   duration: "88"

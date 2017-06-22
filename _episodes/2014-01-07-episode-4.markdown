@@ -1,5 +1,5 @@
 ---
-title:  "Episode 4"
+title: "The Nap"
 description: "A total snoozefest."
 
 # link: ""
@@ -19,7 +19,9 @@ enclosure:
 
 itunes:
   # author: ""
-  subtitle: "The Nap"
+  season: "1"
+  episode: "4"
+  # subtitle: ""
   summary: "A total snoozefest."
   explicit: "no"
   duration: "51"
