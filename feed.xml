@@ -23,7 +23,6 @@ layout: null
     <webMaster>{{ site.web_master.email }} ({{ site.web_master.name }})</webMaster>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %T Z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T Z" }}</lastBuildDate>
-    <!-- image -->
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <atom:link href="{{ site.feed_url }}" rel="self" type="application/rss+xml"/>
 
