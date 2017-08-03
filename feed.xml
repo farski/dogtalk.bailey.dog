@@ -39,8 +39,6 @@ layout: null
     <itunes:summary>{{ site.itunes.summary | xml_escape }}</itunes:summary>
     <itunes:category text="Society &amp; Culture" />
     <itunes:image href="{{ site.itunes.image.href }}" />
-    <itunes:keywords>{{ site.itunes.keywords | join: "," | xml_escape }}</itunes:keywords>
-    <!-- <itunes:new-feed-url></itunes:new-feed-url> -->
 
     {% for episode in site.episodes reversed %}
       <item>
@@ -67,7 +65,6 @@ layout: null
         <itunes:summary>{{ episode.itunes.summary | xml_escape }}</itunes:summary>
         <itunes:explicit>{{ episode.itunes.explicit }}</itunes:explicit>
         <itunes:duration>{{ episode.itunes.duration }}</itunes:duration>
-        <itunes:keywords>{{ episode.itunes.keywords | join: "," | xml_escape }}</itunes:keywords>
         {% if episode.itunes.image %}<itunes:image href="{{ episode.itunes.image.href }}" />{% endif %}
       </item>
     {% endfor %}
