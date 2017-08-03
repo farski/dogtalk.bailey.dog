@@ -23,9 +23,6 @@ layout: null
     <webMaster>{{ site.web_master.email }} ({{ site.web_master.name }})</webMaster>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    {% for cat in post.categories %}
-    <category>{{ cat | xml_escape }}</category>
-    {% endfor %}
     <!-- image -->
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <atom:link href="{{ site.feed_url }}" rel="self" type="application/rss+xml"/>
@@ -57,15 +54,8 @@ layout: null
         <pubDate>{{ episode.pubDate | date_to_rfc822 }}</pubDate>
         <source url="{{ episode.source.url }}">{{ episode.source.text }}</source>
 
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
         <guid isPermaLink="false">{{ episode.guid }}</guid>
         <enclosure url="{{ episode.enclosure.url }}" length="{{ episode.enclosure.length }}" type="{{ episode.enclosure.type }}" />
-
-        {% if episode.comments %}
-        <comments>{{ episode.comments }}</comments>
-        {% endif %}
 
         {% if episode.content %}
         <content:encoded><![CDATA[{{ episode.content }}]]></content:encoded>
