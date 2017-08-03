@@ -43,7 +43,6 @@ layout: null
     <itunes:keywords>{{ site.itunes.keywords | join: "," | xml_escape }}</itunes:keywords>
     <!-- <itunes:new-feed-url></itunes:new-feed-url> -->
 
-
     {% for episode in site.episodes reversed %}
       <item>
         <title>{{ episode.title | xml_escape }}</title>
