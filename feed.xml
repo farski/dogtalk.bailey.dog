@@ -54,7 +54,7 @@ layout: null
         <pubDate>{{ episode.pubDate | date: "%a, %d %b %Y %T Z" }}</pubDate>
         <source url="{{ episode.source.url }}">{{ episode.source.text }}</source>
 
-        <guid isPermaLink="false">{{ episode.guid }}</guid>
+        <guid>{{ episode.guid }}</guid>
         <enclosure url="{{ episode.enclosure.url }}" length="{{ episode.enclosure.length }}" type="{{ episode.enclosure.type }}" />
 
         {% if episode.content %}
