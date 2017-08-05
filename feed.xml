@@ -21,8 +21,8 @@ layout: null
     <copyright>{{ site.copyright | xml_escape }}</copyright>
     <managingEditor>{{ site.managing_editor.email }} ({{ site.managing_editor.name }})</managingEditor>
     <webMaster>{{ site.web_master.email }} ({{ site.web_master.name }})</webMaster>
-    <pubDate>{{ site.time | date: "%a, %d %b %Y %T Z" }}</pubDate>
-    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T Z" }}</lastBuildDate>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %T UT" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T UT" }}</lastBuildDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
 
     <atom:link href="{{ site.feed_url }}" rel="self" type="application/rss+xml"/>
@@ -51,7 +51,7 @@ layout: null
 
         <link>{{ episode.link }}</link>
         <author>{{ episode.author | xml_escape }}</author>
-        <pubDate>{{ episode.pubDate | date: "%a, %d %b %Y %T Z" }}</pubDate>
+        <pubDate>{{ episode.pubDate | date: "%a, %d %b %Y %T UT" }}</pubDate>
         <source url="{{ episode.source.url }}">{{ episode.source.text }}</source>
 
         <guid>{{ episode.guid }}</guid>
