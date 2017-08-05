@@ -28,6 +28,11 @@ itunes:
     - "animals"
     - "baileythebeagle"
 
+platforms:
+  apple: "https://itunes.apple.com/us/podcast/dog-talk/id1093493920"
+  radiopublic: "https://play.radiopublic.com/dog-talk-D6rRd6"
+  overcast: "https://overcast.fm/itunes1093493920/dog-talk"
+
 collections:
   - episodes
 

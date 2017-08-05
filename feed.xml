@@ -24,7 +24,11 @@ layout: null
     <pubDate>{{ site.time | date: "%a, %d %b %Y %T Z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T Z" }}</lastBuildDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+
     <atom:link href="{{ site.feed_url }}" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.platforms.apple }}" rel="alternate" smcore:platform="Apple"/>
+    <atom:link href="{{ site.platforms.radiopublic }}" rel="alternate" smcore:platform="RadioPublic"/>
+    <atom:link href="{{ site.platforms.overcast }}" rel="alternate" smcore:platform="Overcast"/>
 
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
