@@ -1,6 +1,6 @@
 ---
 title: "On Location"
-description: "We take to the streets to find out how the recent social and political climates have impact the lives of working-class dogs."
+description: "We take to the streets to find out how the recent social and political climates have impacted the lives of working-class dogs."
 
 # link: ""
 # author: ""
@@ -22,7 +22,7 @@ itunes:
   season: "2"
   episode: "1"
   # subtitle: ""
-  summary: "We take to the streets to find out how the recent social and political climates have impact the lives of working-class dogs."
+  summary: "We take to the streets to find out how the recent social and political climates have impacted the lives of working-class dogs."
   explicit: "no"
   duration: "41"
 #  keywords:
@@ -30,4 +30,4 @@ itunes:
 #    href: ""
 ---
 
-<p>We take to the streets to find out how the recent social and political climates have impact the lives of working-class dogs.</p>
+<p>We take to the streets to find out how the recent social and political climates have impacted the lives of working-class dogs.</p>
