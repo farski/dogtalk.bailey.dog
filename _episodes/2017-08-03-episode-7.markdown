@@ -1,0 +1,33 @@
+---
+title: "On Location"
+description: "We take to the streets to find out how the recent social and political climates have impact the lives of working-class dogs."
+
+# link: ""
+# author: ""
+# source:
+#  url: ""
+#  text: ""
+pubDate: 2017-08-03 12:00:00
+categories:
+guid: "521b2f41-77e2-43ff-918c-14de09c99e5a"
+enclosure:
+  url: "https://media.dogtalk.bailey.dog/audio/2DGT01.mp4"
+  length: "718611"
+  type: "audio/mp4"
+
+# comments: ""
+
+itunes:
+  # author: ""
+  season: "2"
+  episode: "1"
+  # subtitle: ""
+  summary: "We take to the streets to find out how the recent social and political climates have impact the lives of working-class dogs."
+  explicit: "no"
+  duration: "41"
+#  keywords:
+#  image:
+#    href: ""
+---
+
+<p>We take to the streets to find out how the recent social and political climates have impact the lives of working-class dogs.</p>
