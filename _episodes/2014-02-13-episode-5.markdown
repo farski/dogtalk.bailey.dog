@@ -11,7 +11,7 @@ pubDate:   2014-02-13 12:00:00
 categories:
 guid: "ecf39a5b-1816-4539-b97c-f71e4d652eeb"
 enclosure:
-  url: "https://media.dogtalk.bailey.dog/audio/1DGT05.mp3"
+  url: "https://media.dogtalk.bailey.dog/audio/1DGT05.m4a"
   length: "1226919"
   type: "audio/mpeg"
 
