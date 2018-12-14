@@ -1,0 +1,33 @@
+---
+title: "The Window"
+description: "Bailey gossips about the new neighbors across the street."
+
+# link: ""
+# author: ""
+# source:
+#  url: ""
+#  text: ""
+pubDate: 2018-12-14 12:00:00
+categories:
+guid: "3764263e-8852-4517-b50f-9162e92476cc"
+enclosure:
+  url: "https://media.dogtalk.bailey.dog/audio/2DGT02.m4a"
+  length: "1019818"
+  type: "audio/mp4"
+
+# comments: ""
+
+itunes:
+  # author: ""
+  season: "2"
+  episode: "2"
+  # subtitle: ""
+  summary: "Bailey gossips about the new neighbors across the street."
+  explicit: "no"
+  duration: "76"
+#  keywords:
+#  image:
+#    href: ""
+---
+
+<p>Bailey gossips about the new neighbors across the street.</p>
